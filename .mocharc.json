@@ -1,0 +1,16 @@
+{
+  "recursive": true,
+  "timeout": 10000,
+  "exit": true,
+  "reporter": "spec",
+  "require": [],
+  "env": {
+    "NODE_ENV": "test"
+  },
+  "spec": [
+    "test/**/*.test.js"
+  ],
+  "ignore": [
+    "node_modules/**/*"
+  ]
+}
